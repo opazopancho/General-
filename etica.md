@@ -9,7 +9,6 @@ Francisco Opazo · Héctor Medina · Manuel Ávalos Castillo · Nicolás Echever
 | 1.0 | 14-10-2026 · Semana 6 | Primera versión: mapa de impacto, ficha de datos personales, revisión de sesgo, accesibilidad y transparencia, sostenibilidad y matriz de riesgos |
 | 1.1 | 14-10-2026 · Semana 6 | La ficha cubre los 172 campos de la estructura (finalidad, quién lo ve y conservación, campo por campo en el diccionario). El README enlaza este documento |
 
-> Este documento se revisa en cada entrega. La próxima revisión es antes de la **prueba con usuarios de la Semana 7**, porque lo que diga el planificador puede cambiar varias de estas decisiones.
 
 ---
 
