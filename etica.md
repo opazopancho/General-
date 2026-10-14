@@ -4,12 +4,6 @@
 
 Francisco Opazo · Héctor Medina · Manuel Ávalos Castillo · Nicolás Echeverría
 
-| Versión | Fecha | Qué cambió |
-|---|---|---|
-| 1.0 | 14-10-2026 · Semana 6 | Primera versión: mapa de impacto, ficha de datos personales, revisión de sesgo, accesibilidad y transparencia, sostenibilidad y matriz de riesgos |
-| 1.1 | 14-10-2026 · Semana 6 | La ficha cubre los 172 campos de la estructura (finalidad, quién lo ve y conservación, campo por campo en el diccionario). El README enlaza este documento |
-
-
 ---
 
 ## En una página
