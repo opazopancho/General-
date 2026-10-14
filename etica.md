@@ -390,32 +390,3 @@ Probabilidad e impacto: alta, media o baja. Tratamiento: mitigar (reducir la pro
 | R12 | Personas con baja visión o daltonismo, o en terreno, no pueden leer los estados | Media | Medio | **Mitigar:** corregir A1–A12 por prioridad: primero A10, A1, A7 y A5 | Técnico | Cada entrega |
 | R13 | La meta de 200 h de anticipación no se puede demostrar con datos sintéticos | Alta | Medio | **Aceptar:** es una hipótesis declarada desde el Avance 2. Se monitorea con `v_indicadores_retiro` cuando existan datos de faena | Datos y modelo | Paso a piloto, Semana 13 |
 | R14 | Los estilos del prototipo dependen de una dirección de desarrollo de un tercero | Media | Medio | **Mitigar:** compilar y servir los estilos desde el repositorio | Técnico | Semana 8 |
-
----
-
-## 5. Compromisos y próximas revisiones
-
-Pasamos de decisiones implícitas a compromisos escritos que otra persona puede revisar.
-
-**Antes de la prueba con usuarios (Semana 7)**
-- [ ] Franja «Prototipo · datos sintéticos» y avisos de IA en tablero, ficha y alerta (T1, T2, [3.3](#33-aviso-cuando-interviene-ia)).
-- [ ] Permitir agendar contra el modelo con motivo (T6) y registrar las correcciones con autor y motivo (T4).
-- [ ] Corregir los contadores y las referencias de órdenes (T7) y la bitácora del simulador (T8).
-- [ ] Preguntar al planificador: ¿le sirve el grupo «revisar el dato»? ¿Lee el motivo antes de agendar?
-- [ ] Confirmar el consentimiento de la foto del Avance 1 o difuminarla (D2).
-- [ ] Vaciar `.env.example` y cambiar la clave (R10).
-
-**Para la prueba de concepto con arquitectura y despliegue (Semana 8)**
-- [ ] Aplicar `20261014170000_priorizacion_revisada_y_aviso_ia.sql` y conectar el tablero a `v_tablero_turno`.
-- [ ] Restringir `usuarios.correo` a la propia persona y a administración.
-- [ ] Corregir los hallazgos de accesibilidad, partiendo por A10, A1, A7 y A5.
-- [ ] Compilar los estilos y comprimir las imágenes.
-- [ ] Repositorio único y flujo `dev` → pull request → `main`.
-
-**Antes del paso a piloto (Semana 13)**
-- [ ] Validar esta ficha y sus plazos con el encargado de protección de datos de la faena.
-- [ ] Incorporar el sistema al reglamento interno de la faena y poner el letrero en el pórtico.
-- [ ] Medir la exactitud del modelo de visión por posición, condición y marca.
-- [ ] Nombrar al operador del punto de control con tiempo asignado.
-
-**En cada entrega:** revisar la matriz de riesgos, actualizar la tabla de versiones de este documento y volver a correr la revisión de accesibilidad con los scripts de [`herramientas/revision-etica/`](../herramientas/revision-etica/).
